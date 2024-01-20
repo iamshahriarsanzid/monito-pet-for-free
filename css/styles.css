@@ -1,0 +1,72 @@
+/* main hedaer and nav bar */
+
+.header-main {
+    width: 1440px;
+    height: 695px;
+    border-radius: 0px 0px 40px 40px;
+    background-color: #FFE7BA;
+    
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    padding: 28px 130px;
+    gap: 48px;
+}
+
+.main-monito-logo {
+    width: 115px;
+    height: 40px;
+}
+
+
+.nav-details {
+    font-size: 16px;
+    color: var(--Primary-Color-Dark-Blue, #003459);
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.search-icon {
+   border: none;
+   background-color: #fff;
+   color: var(--Neutral-Color-40, #99A2A5);
+   font-size: 14px;
+   
+}
+
+
+.search-space {
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    color: var(--Neutral-Color-40, #99A2A5);
+    border: none;
+    font-weight: 500;
+    height: 20px;
+    border-radius: none;
+    outline: none;
+    padding-right: 20px;
+
+}
+
+.search-container {
+    width: 280px;
+    height: 44px;
+    border-radius: 46px;
+    margin-left: auto;
+    background: var(--Neutral-Color-00, #FDFDFD);
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.search-space:hover {
+    border-color: #fff;
+}
+
+

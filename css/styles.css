@@ -104,11 +104,6 @@ body {
     margin: -35px;
 }
 
-.rectangle {
-    position: relative;
-    bottom: 123px;
-}
-
 .checkbtn {
     width: 32px;
     height: 32px;
@@ -116,6 +111,16 @@ body {
     cursor: pointer;
     display: none;
 }
+
+.rectangle-parent {
+
+}
+
+.rectangle {
+    position: relative;
+    bottom: 123px;
+}
+
 
 .rectangle-one {
     position: absolute;
@@ -150,12 +155,24 @@ body {
 .rectangle-six {
     position: absolute;
     top: 600px;
+    right: 610px;
 }
 
 .rectangle-seven {
     position: absolute;
     left: 613px;
     top: 213px;
+}
+
+.one-more-friend {
+    display: flex;
+    margin-left: 130px;
+}
+
+.humbor-woman {
+    position: relative;
+    z-index: 1;
+    bottom: 160px;
 }
 
 

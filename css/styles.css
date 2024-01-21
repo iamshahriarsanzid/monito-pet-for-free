@@ -6,6 +6,10 @@
 
 /* main hedaer and nav bar */
 
+body {
+    margin: 0;
+}
+
 .header-main {
     width: 1440px;
     height: 695px;
@@ -65,7 +69,6 @@
     width: 280px;
     height: 44px;
     border-radius: 46px;
-    margin-left: auto;
     background: var(--Neutral-Color-00, #FDFDFD);
     display: flex;
     align-items: center;
@@ -112,6 +115,47 @@
     color: #00171F;
     cursor: pointer;
     display: none;
+}
+
+.rectangle-one {
+    position: absolute;
+    top: 148px;
+    left: 757px;
+}
+
+.rectangle-two {
+    left: 112px;
+    position: absolute;
+    top: 163px;
+}
+
+.rectangle-three {
+    left: 728px;
+    position: absolute;
+    top: 200px;
+}
+
+.rectangle-four {
+    position: absolute;
+    left: 727px;
+    top: 209px;
+}
+
+.rectangle-five {
+    left: 596px;
+    position: absolute;
+    top: 283px;
+}
+
+.rectangle-six {
+    position: absolute;
+    top: 600px;
+}
+
+.rectangle-seven {
+    position: absolute;
+    left: 613px;
+    top: 213px;
 }
 
 

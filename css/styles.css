@@ -4,10 +4,6 @@
 
 /* univarsal style */
 
-* {
-    ;
-}
-
 /* main hedaer and nav bar */
 
 .header-main {
@@ -108,4 +104,96 @@
 .rectangle {
     position: relative;
     bottom: 123px;
+}
+
+.checkbtn {
+    width: 32px;
+    height: 32px;
+    color: #00171F;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* media screen for mobile */
+
+@media screen and (max-width: 768px) {
+
+    .header-main {
+        margin: 0;
+        width: 414px;
+        height: 794px;
+        border-radius: 0px, 0px, 20px, 20px;
+    }
+
+    .rectangle {
+        bottom: 97px;
+        right: 10px;
+    }
+    
+    body {
+        margin: 0;
+        width: 414px;
+    }
+
+    .main-monito-logo {
+        width: 92px;
+        height: 32px;
+        justify-content: center;
+        gap: auto;
+        display: flex;
+        position: relative;
+        left: 116px;
+        flex: auto;
+    }
+    
+    .nav-main {
+        padding: 2px 14px 0px 10px;
+        height: 57px;
+        gap: 0;
+    }
+
+    .nav-details {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .join-community a {
+        display: none;
+    }
+
+    .search-space {
+        display: none;
+    }
+
+    .search-icon {
+        background-color: #ffe7ba;
+        color: #00171F;
+        width: 23px;
+        height: 23px;
+        position: relative;
+        right: 14px;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    .search-container {
+        background-color: none  ;
+        width: 0;
+        height: 0;
+    }
+
+    .vnd-icon {
+        display: none;
+    }
+
+
 }

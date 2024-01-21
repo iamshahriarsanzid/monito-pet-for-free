@@ -112,9 +112,6 @@ body {
     display: none;
 }
 
-.rectangle-parent {
-
-}
 
 .rectangle {
     position: relative;
@@ -170,9 +167,43 @@ body {
 }
 
 .humbor-woman {
-    position: relative;
+    position: absolute;
     z-index: 1;
-    bottom: 160px;
+    top:85px;
+    left:  538.33px;
+}
+
+.header-title {
+    position: absolute;
+    z-index: 1;
+    top: 138px;
+    font-size: 60px;
+    font-weight: 800;
+    width: 465px;
+    font-family: SVN-Gilroy;
+    color: var(--Primary-Color-Dark-Blue-80, #002A48);
+}
+
+.header-subtitle {
+    position: absolute;
+    top: 200px;
+    width: 452px;
+    height: 60px;
+    font-family: SVN-Gilroy;
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--Primary-Color-Dark-Blue-80, #002A48);
+}
+
+.header-info {
+    position: relative;
+    height: 72px;
+    width: 480px;
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    top: 70px;
+    color: #242B33;   
 }
 
 

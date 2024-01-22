@@ -195,6 +195,18 @@ body {
     color: var(--Primary-Color-Dark-Blue-80, #002A48);
 }
 
+.rectangle-responsive {
+    display: none;
+}
+
+.rectangle-responsive-one {
+    display: none;
+}
+
+.humbor-woman-responsive {
+    display: none;
+}
+
 .header-info {
     position: relative;
     height: 72px;
@@ -251,14 +263,14 @@ body {
     .header-main {
         margin: 0;
         width: 414px;
-        height: 794px;
+        height: 869px;
         border-radius: 0px, 0px, 20px, 20px;
         background-color: #FCEED5;
     }
 
     .rectangle {
-        bottom: 93px;
-        right: 10px;
+        bottom: 87px;
+        left: 2px;
     }
     
     body {
@@ -274,7 +286,7 @@ body {
         gap: auto;
         display: flex;
         position: absolute;
-        left: 116px;
+        left: 151px;
         flex: auto;
         align-items: center;
         top: 22px;
@@ -314,10 +326,9 @@ body {
         height: 23px;
         position: absolute;
         z-index: 1;
-        left: 50px;
+        left: 40px;
         top: -10px;
-        
-        
+        font-size: 28px;   
     }
 
     .search-container {
@@ -362,5 +373,69 @@ body {
         padding-top: 20px;
     }
 
+    .rectangle-three {
+        position: absolute;
+        top: 227.66px;
+        left: 304.41px;
+        height: 15.93px;
+        width: 15.93px;
+    }
 
+    .humbor-woman {
+        display: none;
+    }
+
+    .rectangle-two {
+        display: none;
+    }
+
+    .rectangle-four {
+        position: absolute;
+        top: 233px;
+        left: 302px;
+        width: 12.44px;
+        height: 12.44px;
+    }
+
+    .header-button {
+        display: flex;
+        position: absolute;
+        left: 16px;
+        top: 375px;
+    }
+
+    .rectangle-one {
+        position: absolute;
+        left: 349px;
+        top: 207px;
+    }
+
+
+    .five-seven {
+        display: none;
+    }
+
+    .rectangle-responsive {
+        position: absolute;
+        display: block;
+        display: flex;
+        top: 503px;
+        left: 16.73px;
+        rotate: -5.37°;
+        width: 344px;
+        height: 366px;
+    }
+
+    .rectangle-responsive-one {
+        position: absolute;
+        display: block;
+        left: 14.48px;
+        top: 498px;
+    }
+
+    .humbor-woman-responsive {
+        display: block;
+        position: absolute;
+        top: 483px;
+    }
 }

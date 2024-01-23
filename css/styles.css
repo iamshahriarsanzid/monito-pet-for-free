@@ -170,7 +170,7 @@ body {
     position: absolute;
     z-index: 1;
     top:85px;
-    left:  538.33px;
+    left:  530.33px;
 }
 
 .header-title {
@@ -255,6 +255,150 @@ body {
     cursor: pointer;
 }
 
+/* main section start */
+
+.section-parent {
+    margin-right: 130px;
+    margin-left: 130px;
+
+}
+
+.section-sub-parent {
+    display: flex;  
+    align-items: center;
+    gap: 624px;
+}
+
+.whats-new {
+    margin-top: 60px;
+    width: 94px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family:SVN-Gilroy;
+    line-height: 24px;
+    
+}
+
+.view-more {
+    padding: 12px, 28px, 12px, 28px;
+    width: 151px;
+    height: 44px;
+    margin-top: 78px;
+    border-radius: 57px;
+    border: 1.5px solid;
+    border-color: #003459;
+    cursor: pointer;
+}
+
+.title-ourpets {
+    width: 357px;
+    height: 36px;
+    font-family: SVN-Gilroy;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+    margin-bottom: 28px;
+}
+
+/* dog details section */
+
+.container {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.dog-code {
+    width: 248px;
+    height: 24px;
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 8px;
+    color: #00171F;
+}
+
+.dog-img {
+    width: 264px;
+    height: 264px;
+}
+
+.dog-box {
+    width: 264px;
+    height: 378px;
+    padding: 8px 8px 0px 8px;
+    gap: 8px;
+    border-radius: 12px;
+    color: #FDFDFD;
+    box-shadow: 0px 4px 28px #00000014 ;
+}
+
+.gene {
+    width: 34px;
+    height: 18px;
+    font-family: SVN-Gilroy;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #667479;
+    padding-right: 4px;
+    padding-left: 8px;
+}
+
+.age {
+    width: 34px;
+    height: 18px;
+    font-family: SVN-Gilroy;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #667479;
+}
+
+.gender {
+    width: 58px;
+    height: 18px;
+    font-family: SVN-Gilroy;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #667479;
+}
+
+.gender-parent {
+    width: 248px;
+    height: 18px;
+    display: flex;
+    margin-top: -15px;
+}
+
+.dot {
+    width: 18px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    color: #667479;
+    position: relative;
+    bottom: 14px;
+    margin-left: -15px;;
+}
+
+.price {
+    width: 248px;
+    height: 20px;
+    font-family: SVN-Gilroy;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00171F;
+    margin-top: 24px;
+    padding-left: 8px;
+    padding-bottom: 20px    ;
+}
 
 /* media screen for mobile */
 

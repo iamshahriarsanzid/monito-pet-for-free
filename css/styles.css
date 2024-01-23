@@ -266,7 +266,8 @@ body {
 .section-sub-parent {
     display: flex;  
     align-items: center;
-    gap: 624px;
+    gap: 702.459px;
+    margin-right: 30px;
 }
 
 .whats-new {
@@ -305,9 +306,9 @@ body {
 /* dog details section */
 
 .container {
-    gap: 20px;
+    row-gap: 20px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .dog-code {
@@ -330,7 +331,6 @@ body {
     width: 264px;
     height: 378px;
     padding: 8px 8px 0px 8px;
-    gap: 8px;
     border-radius: 12px;
     color: #FDFDFD;
     box-shadow: 0px 4px 28px #00000014 ;
@@ -567,19 +567,19 @@ body {
         left: 16.73px;
         rotate: -5.37°;
         width: 344px;
-        height: 366px;
+        height: 364px;
     }
 
     .rectangle-responsive-one {
         position: absolute;
         display: block;
         left: 14.48px;
-        top: 498px;
+        top: 496px;
     }
 
     .humbor-woman-responsive {
         display: block;
         position: absolute;
-        top: 483px;
+        top: 481px;
     }
 }

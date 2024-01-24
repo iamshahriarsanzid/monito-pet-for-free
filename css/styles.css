@@ -700,6 +700,10 @@ body {
     left: 63px;
 }
 
+.useful-pet-knowledge {
+    display: none;
+}
+
 
 /* media screen for mobile */
 
@@ -1062,8 +1066,62 @@ body {
         display: block;
         position: absolute;
         left: 20px;
-        bottom: -2596px;
+        bottom: -2771px;
         z-index: 3;
+        display: none;
+    }
+
+    .our-products {
+        display: none;
+    }
+
+    .useful-pet-knowledge {
+        display: block;
+    }
+
+    .you-already-know {
+        width: 127px;
+        height: 20px;
+        font-family: SVN-Gilroy;
+        font-weight:  500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        position: absolute;
+        top: 3119px;
+        left: 16px;
+    }
+
+    .pet-knowledge-title {
+        position: absolute;
+        top: 3138px;
+        left: 16px;
+        width: 202px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: #003459;
+        font-family: SVN-Gilroy;
+    }
+
+    .pet-box{
+        width: 382px;
+        height: 424px;
+        left: 16px;
+        border-radius: 12px;
+        padding: 8px;
+        gap: 8px;
+        position: absolute;
+        top: 3220px;
+        color: #FFFFFF;
+        box-shadow: 0px 4px 28px #00000014;
+    }
+
+    .pet-img {
+        width: 364px;
+        height: 243px;
+        border-radius: 10px;
     }
 
 

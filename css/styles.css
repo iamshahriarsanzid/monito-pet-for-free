@@ -1528,7 +1528,7 @@ hr{
     }
 
     .pet-box{
-        width: 382px;
+        width: 366px;
         height: 444px;
         left: 16px;
         border-radius: 12px;
@@ -1541,7 +1541,7 @@ hr{
     }
 
     .pet-box-1{
-        width: 382px;
+        width: 366px;
         height: 464px;
         left: 16px;
         border-radius: 12px;
@@ -1554,7 +1554,7 @@ hr{
     }
 
     .pet-box-2{
-        width: 382px;
+        width: 366px;
         height: 427px;
         left: 16px;
         border-radius: 12px;
@@ -1639,7 +1639,7 @@ hr{
 
     .register-now {
         width: 414px;
-        height: 598px;
+        height: 748px;
         border-radius: 20px 20px 0px 0px;
         background-color: #FCEED5;
         position: absolute;
@@ -1691,7 +1691,48 @@ hr{
     }
 
     .contact-us {
-        
+        display: block;
+        position: absolute;
+        top: 600px;
+    }
+
+    hr {
+        position: relative;
+        top: 509px;
+        z-index: 1;
+        left: -4px;
+    }
+
+    .contact-home {
+        position: absolute;
+        top: -43px;
+        left: -55px;
+        gap: 40px;
+    }
+
+    .social-icon {
+        position: absolute;
+        top: 9px;
+    }
+
+    .privacy-policy {
+        display: block;
+        position: absolute;
+        top: 499px;
+        left: 63px; 
+    }
+
+    .terms {
+        position: absolute;
+        top: 116px;
+        left: -50px;
+    }
+
+    .last-title {
+        position: relative;
+        top: 136px;
+        left: -24px;
+        font-size: 10px;
     }
 
 }

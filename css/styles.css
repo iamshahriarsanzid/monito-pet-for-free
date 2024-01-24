@@ -988,7 +988,7 @@ body {
 
 .register-now {
     width: 1440px;
-    height: 440px;
+    height: 500px;
     border-radius: 40px 40px 0px 0px;
     background-color: #FCEED5;
 }
@@ -1055,7 +1055,8 @@ body {
     display: flex;
     margin-left: 92px;
     margin-right: 92px;
-    gap: 672px;
+    gap: 624px;
+    margin-top: -96px;
 }
 
 .contact-home {
@@ -1065,11 +1066,60 @@ body {
 
 .contact-home a {
     text-decoration: none;
+    width: 71px;
+    height: 24px;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
 }
 
 .social-icon {
     display: flex;
     gap: 40px;
+}
+
+.privacy-policy {
+    display: flex;
+    margin-left: 92px;
+    align-items: center;
+    gap: 350px;
+    margin-left: 92px;
+    margin-top: 57px;
+}
+
+.last-title {
+    width: 217px;
+    height: 20px;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+}
+
+.terms {
+    display: flex;
+    width: 227px;
+    height: 20px;
+    gap: 15px;
+}
+
+.terms a{
+    text-decoration: none;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+}
+
+hr{
+    margin-left: 92px;
+    margin-right: 92px;
+    margin-top: 60px;
+    color: #CCD1D2;
 }
 
 /* media screen for mobile */
@@ -1587,5 +1637,59 @@ body {
         display: none;
     }
 
+    .register-now {
+        width: 414px;
+        height: 598px;
+        border-radius: 20px 20px 0px 0px;
+        background-color: #FCEED5;
+        position: absolute;
+        top: 3720px;
+        top: 4742px;
+    }
+
+    .register-box {
+        width: 318px;
+        height: 207px;
+        position: absolute;
+        margin-left: 16px;
+        border-radius: 16px;
+        gap: 16px;
+    }
+
+    .register-title {
+        position: absolute;
+        left: -20px;
+        top: -18px;
+    }
+
+    .gmail-subscribe-box {
+        position: absolute;
+        width: 350px;
+        height: 142px;
+    }
+
+    .gmail-box {
+        position: absolute;
+        width: 330px;
+        height: 142px;
+        left: -18px;
+        top: 60px;
+        gap: 10px;
+    }
+
+    .subscribe {
+        width: 330px;
+        height: 57px;
+        position: absolute;
+        left: 13px;
+        top: 91px;
+    }
+
+    .gmail-box input {
+        width: 270px;
+        height: 32px;
+    }
+
+    
 
 }

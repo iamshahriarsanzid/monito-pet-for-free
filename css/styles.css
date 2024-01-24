@@ -706,7 +706,7 @@ body {
 
 /* pet sellers section */
 
-.pet-sellers {
+.button-and-title {
     display: flex;
     margin-left: 130px;
     margin-right: 130px;
@@ -725,6 +725,8 @@ body {
     border-color: #003459;
     cursor: pointer;
     gap: 8px;
+    position: relative;
+    top: -20px;
 }
 
 .arrows {
@@ -732,6 +734,108 @@ body {
     top: 6px;
 }
 
+.pet-sellers-box {
+    width: 266px;
+    height: 36px;
+    gap: 8px;
+    font-family: SVN-Gilroy;
+}
+
+.proud-to-be {
+    width: 273px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.pet-sellers-title {
+    width: 117px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+    padding-left: 10px;
+}
+
+.sellers-img {
+    margin-left: 130px;
+    width: 1170px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.adoption-box {
+    height: 378px;
+    width: 1180px;
+    border-radius: 20px;
+    background-color: #FFB775;
+    margin-top: 100px;
+    margin-left: 130px;
+
+}
+
+.svg-17 {
+    position: relative;
+    left: 479px;
+    bottom: 319px;
+}
+
+.hand-img {
+    position: relative;
+    bottom: 701px;
+    left: 583px;
+}
+
+.adoption-title-box {
+    position: relative;
+    bottom: 1079px;
+    left: 120px;
+    width: 350px;
+}
+
+.adoption-title {
+    width: 225px;
+    height: 68px;
+    font-family: SVN-Gilroy;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 68px;
+    color: #003459;
+    width: 279px;
+}
+
+.adoption-sub-title {
+    width: 448px;
+    height: 54px;
+    font-family: SVN-Gilroy;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #003459;
+    padding-bottom: 20px;
+    margin-top: -41px;
+}
+
+.adoption-info {
+    width: 205px;
+    height: 36px;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #242B33;
+    margin-top: -6px;
+}
+
+.section-btn {
+    font-family: SVN-Gilory; 
+    position: relative;
+    margin-top: 35px;
+    left: -15px;
+}
 
 
 /* media screen for mobile */
@@ -1244,6 +1348,8 @@ body {
     .pet-sellers {
         
     }
+
+    
 
 
 }

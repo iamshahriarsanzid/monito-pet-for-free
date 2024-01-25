@@ -292,6 +292,12 @@ body {
     cursor: pointer;
 }
 
+.view-more a {
+    text-decoration: none;
+    color: #003459;
+
+}
+
 .title-ourpets {
     width: 357px;
     height: 36px;
@@ -564,6 +570,11 @@ body {
     border: 1.5px solid;
     border-color: #003459;
     cursor: pointer;
+}
+
+.view-mores a {
+    text-decoration: none;
+    color: #003459;
 }
 
 .product-continer {

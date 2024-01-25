@@ -1636,7 +1636,6 @@ hr{
         border-radius: 20px 20px 0px 0px;
         background-color: #FCEED5;
         position: absolute;
-        top: 3720px;
         top: 4782px;
     }
 
@@ -1653,7 +1652,8 @@ hr{
     .register-title {
         position: absolute;
         left: -20px;
-        top: -18px;
+        top: -8px;
+        font-size: 20px;
     }
 
     .gmail-subscribe-box {
@@ -1686,7 +1686,7 @@ hr{
 
     .contact-us {
         display: block;
-        position: absolute;
+        position: relative;
         top: 507px;
     }
 

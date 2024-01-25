@@ -29,7 +29,6 @@ body {
     height: 40px;
     position: relative;
     z-index: 1;
-   
 }
 
 
@@ -39,8 +38,6 @@ body {
     font-weight: 700;
     text-decoration: none;
     font-family: SVN-Gilroy;
-    
-    
 }
 
 .search-icon {
@@ -48,7 +45,6 @@ body {
    background-color: #fff;
    color: var(--Neutral-Color-40, #99A2A5);
    font-size: 14px;
-   
 }
 
 
@@ -62,7 +58,6 @@ body {
     border-radius: none;
     outline: none;
     padding-right: 20px;
-
 }
 
 .search-container {
@@ -1637,12 +1632,12 @@ hr{
 
     .register-now {
         width: 414px;
-        height: 748px;
+        height: 666px;
         border-radius: 20px 20px 0px 0px;
         background-color: #FCEED5;
         position: absolute;
         top: 3720px;
-        top: 4742px;
+        top: 4782px;
     }
 
     .register-box {
@@ -1652,6 +1647,7 @@ hr{
         margin-left: 16px;
         border-radius: 16px;
         gap: 16px;
+        top: -18px;
     }
 
     .register-title {
@@ -1691,12 +1687,12 @@ hr{
     .contact-us {
         display: block;
         position: absolute;
-        top: 600px;
+        top: 507px;
     }
 
     hr {
         position: relative;
-        top: 509px;
+        top: 412px;
         z-index: 1;
         left: -4px;
     }
@@ -1716,7 +1712,7 @@ hr{
     .privacy-policy {
         display: block;
         position: absolute;
-        top: 499px;
+        top: 424px;
         left: 63px; 
     }
 

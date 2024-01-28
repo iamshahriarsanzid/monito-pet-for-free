@@ -537,9 +537,38 @@ body {
 }
 
 .next-page {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 2380px;
     left: 253px;
+    gap: 42px;
+}
+
+.page-number {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #002A48;
+}
+
+.page-number-2 {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 700;
+    background-color: text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 700;
+    background-color: #003459;
+    padding: 6px 13px 4px 13px;
+    width: 9px;
+    height: 23px;
+    border-radius: 8px;
+    font-family: SVN-Gilroy;
+    color: #FDFDFD;
 }
 
 

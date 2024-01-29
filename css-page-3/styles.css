@@ -752,7 +752,7 @@ body {
         display: block;
         position: absolute;
         display: flex;
-        gap: 8px;
+        gap: 12px;
         left: 16px;
         top: 1709px;
     }
@@ -839,6 +839,7 @@ body {
         position: relative;
         bottom: 20px;
         left: 8px;
+        width: 92px;
     }
 
     .price {

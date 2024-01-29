@@ -672,7 +672,7 @@ body {
     display: flex;
     margin-left: 92px;
     align-items: center;
-    gap: 414px;
+    gap: 357px;
     margin-left: 92px;
     margin-top: 57px;
 }
@@ -918,7 +918,7 @@ hr{
         font-weight: 700;
         line-height: 24px;
         top: 476px;
-        right: 0px;
+        right: 3px;
     }
 
     .filter-btn img {
@@ -966,12 +966,13 @@ hr{
     }
 
     .dog-code {
-        width: 170px;
+        width: 160px;
         font-size: 14px;
     }
 
     .gender-parent {
         display: block;
+        width: 80px;
     }
 
     .dot {
@@ -982,12 +983,14 @@ hr{
         position: relative;
         left: 0;
         top: 14px;
+        width: 30px;
     }
 
     .gender-two {
         position: relative;
         left: 8px;
         top: -8px;
+        width: 96px;
     }
 
     .price {
@@ -1028,6 +1031,7 @@ hr{
         left: -20px;
         top: -8px;
         font-size: 20px;
+        width: 300px;
     }
 
     .gmail-subscribe-box {

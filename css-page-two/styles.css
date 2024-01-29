@@ -999,12 +999,14 @@ hr{
     .next-page {
         position: absolute;
         top: 3063px;
-        left: 13px;
+        left: 34px;
+        width: 310px;
+        gap: 20px;
     }
 
     .register-now {
         width: 414px;
-        height: 575px;
+        height: 646px;
         border-radius: 20px 20px 0px 0px;
         background-color: #FCEED5;
         position: absolute;
@@ -1084,8 +1086,8 @@ hr{
     .privacy-policy {
         display: block;
         position: absolute;
-        top: 336px;
-        left: 63px; 
+        top: 406px;
+        left: 53px; 
     }
 
     .terms {
